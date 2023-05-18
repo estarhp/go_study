@@ -11,7 +11,7 @@ func InitRouter() {
 	r.Use(middleware.Cors())
 
 	r.POST("/register", Register)
-	r.GET("/login", Login)
+	r.POST("/login", Login)
 
 	UserRouter := r.Group("/user")
 	{

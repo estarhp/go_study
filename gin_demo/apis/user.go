@@ -1,6 +1,7 @@
 package apis
 
 import (
+	"fmt"
 	"gin_demo/apis/middleware"
 	"gin_demo/dao"
 	"gin_demo/model"
@@ -29,7 +30,12 @@ func Register(c *gin.Context) {
 		return
 	}
 
-	dao.AddUser(username, password)
+	err := dao.AddUser(username, password)
+	if err != nil {
+		fmt.Printf("%v", err)
+		utils.RespFail(c, "add err")
+		return
+	}
 	utils.RespSuccess(c, "add user successful")
 
 }
@@ -41,8 +47,8 @@ func Login(c *gin.Context) {
 		return
 	}
 
-	username := c.Query("username")
-	password := c.Query("password")
+	username := c.PostForm("username")
+	password := c.PostForm("password")
 	println(username, password)
 
 	flag := dao.SelectUser(username)
