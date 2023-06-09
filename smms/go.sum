@@ -1,0 +1,8 @@
+github.com/carlmjohnson/requests v0.23.4 h1:AxcvapfB9RPXLSyvAHk9YJoodQ43ZjzNHj6Ft3tQGdg=
+github.com/carlmjohnson/requests v0.23.4/go.mod h1:Qzp6tW4DQyainPP+tGwiJTzwxvElTIKm0B191TgTtOA=
+github.com/google/go-querystring v1.0.0 h1:Xkwi/a1rcvNg1PPYe5vI8GbeBY/jrVuDX5ASuANWTrk=
+github.com/google/go-querystring v1.0.0/go.mod h1:odCYkC5MyYFN7vkCjXpyrEuKhc/BUO6wN/zVPAxq5ck=
+github.com/levigross/grequests v0.0.0-20221222020224-9eee758d18d5 h1:AsF9Q1mQoyLv0HzvHFW7O+19dHilOcKU74k7E5ufI1A=
+github.com/levigross/grequests v0.0.0-20221222020224-9eee758d18d5/go.mod h1:XfzeIE2WC7CGDhlZJY/rUdqUPy0IPcyI6hoIjhAMNbQ=
+golang.org/x/net v0.7.0 h1:rJrUqqhjsgNp7KqAIc25s9pZnjU7TUcSY7HcVZjdn1g=
+golang.org/x/net v0.7.0/go.mod h1:2Tu9+aMcznHK/AK1HMvgo6xiTLG5rD5rZLDS+rp2Bjs=
